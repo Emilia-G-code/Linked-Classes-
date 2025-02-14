@@ -4,7 +4,7 @@ class Book:
         self.name = name
 
 class Library:
-    def __init__(self):
+    def __init__(self, books):
         self.books = []
 
     def add_books(self, Book):
